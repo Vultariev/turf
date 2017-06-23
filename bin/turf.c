@@ -1,7 +1,14 @@
 #include <stdio.h>
-
+#include <string.h>
 int main( int argc, char *argv[] )
 {
-	puts("This is just place-holder code: main code comming soon!");
+	char out[] = "torsocks 'surf ";
+	char argz[31];
+	if(strstr(argv[1],".") == "")
+	{
+		argz = argv[1];
+	}
+	
+	system(out);
 	return 0;
 }
