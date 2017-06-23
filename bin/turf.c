@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-int main( int argc, char *argv[] )
+#include <stdlib.h>
+int main(int argc, char *argv[])
 {
 	char out[] = "torsocks 'surf ";
 	char argz[31];
