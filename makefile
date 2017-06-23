@@ -1,7 +1,5 @@
 CC = gcc
-DEBUG = 1
-
-CFLAGS = 
+CFLAGS = -d -Wall
 TARGET = turf
 
 $(TARGET): $(TARGET).c
@@ -10,3 +8,5 @@ $(TARGET): $(TARGET).c
 all: $(TARGET)
 
 clean : $(RM) $(TARGET)
+
+default: $(TARGET)
