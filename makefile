@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -d -Wall
+CFLAGS = -d
 TARGET = turf
 BIN = bin/
 all: $(TARGET)
