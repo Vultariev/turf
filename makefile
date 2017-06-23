@@ -1,2 +1,2 @@
 all :
-   print "Not quite ready yet."
+	echo "Not quite ready yet."
