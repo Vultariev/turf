@@ -5,7 +5,7 @@ BIN = bin/
 all: $(TARGET)
 
 $(TARGET):
-	$(CC) $(CFLAGS) -o $(TARGET) $(BIN)$(TARGET).c
+	$(CC) $(CFLAGS) -o $(BIN)$(TARGET) $(BIN)$(TARGET).c
 
 clean : 
 	$(RM) $(TARGET)
