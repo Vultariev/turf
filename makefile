@@ -1,2 +1,2 @@
-all :
-	echo "Not quite ready yet."
+all:
+	$(error Not ready yet)
