@@ -8,6 +8,6 @@ $(TARGET):
 	$(CC) $(CFLAGS) -o $(BIN)$(TARGET) $(BIN)$(TARGET).c
 
 clean : 
-	$(RM) $(TARGET)
+	$(RM) $(BIN)$(TARGET)
 
 default: $(TARGET)
