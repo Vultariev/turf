@@ -4,9 +4,10 @@ TARGET = turf
 
 all: $(TARGET)
 
-$(TARGET): $(TARGET).c
+$(TARGET):
 	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
 
-clean : $(RM) $(TARGET)
+clean : 
+	$(RM) $(TARGET)
 
 default: $(TARGET)
